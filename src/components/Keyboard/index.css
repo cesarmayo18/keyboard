@@ -1,0 +1,95 @@
+.key{
+    width:40px;
+    height: 40px;
+    background-color:black;
+    border-radius: 5px;
+    display:inline-block;
+    margin: 0px;
+    margin-left: -4px;
+    padding: 0;
+}
+.keyboard-base{
+    background-color:black;
+    border-radius: 5px;
+    display:inline-block;
+    margin: 0px;
+    margin-left: -4px;
+    padding: 0;
+    position: absolute;
+    right: 50%;
+    left: 50%;
+    width: max-content;
+    transform: translate(-50%,-50%);
+}
+.keyboard-inner{
+    cursor: pointer;
+    background-color: gray;
+    position:relative;
+    top:2px;
+    left: 4.5px;
+    border-radius: 3px;
+    text-align:center;
+    margin:0;
+    padding:5px;
+}
+
+.key-inner{
+    width:30px;
+    height:30px;
+    background-color: #333;
+    color:white;
+    background-color:pink;
+
+    position:relative;
+    top:2px;
+    left: 4.5px;
+    border-radius: 3px;
+    text-align:center;
+    margin:0;
+    padding:0;
+}
+
+span{
+    vertical-align: center;
+    line-height:30px;
+    font-family: sans-serif;
+    margin:0;
+    padding:0;
+}
+
+.keyboard-row{
+    margin:0;
+    padding:0;
+}
+
+.row-2{
+    margin-left: 24px;
+}
+
+.color-input{
+    width: 0px !important;
+    padding: 2px 15px;
+}
+
+input[type="color"] {
+    top: 0px;
+    left: 0px;
+    position: absolute;
+    background-color: transparent;
+    -webkit-appearance: none;
+    border: none;
+    width: 25px;
+    height: 25px;
+}
+input[type="color"]::-webkit-color-swatch-wrapper {
+    padding: 0;
+    background-color: transparent;
+
+}
+#favcolor{
+    background-color: blue !important;
+}
+input[type="color"]::-webkit-color-swatch {
+    border: none;
+    background-color: transparent;
+}
